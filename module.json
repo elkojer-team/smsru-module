@@ -1,0 +1,11 @@
+{
+    "name": "SMSRU",
+    "alias": "smsru",
+    "description": "Сервис для отправки SMS сообщений через API",
+    "keywords": ["smsru"],
+    "priority": 0,
+    "providers": [
+        "Modules\\SMSRU\\App\\Providers\\SMSRUServiceProvider"
+    ],
+    "files": []
+}
