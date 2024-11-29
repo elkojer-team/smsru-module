@@ -1,10 +1,10 @@
 {
-    "name": "nwidart/smsru",
+    "name": "elkojer-team/smsru",
     "description": "",
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Amon Amonov",
+            "email": "amon@adwos.org"
         }
     ],
     "extra": {
