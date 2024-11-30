@@ -20,7 +20,7 @@ class SMSRUController extends Controller
         ]);
 
 
-        return $service->sendSms($validated['to'], $validated['message']);
+        return $service->send($validated['to'], $validated['message'], '127.0.0.1');
     }
 
 }

@@ -9,13 +9,13 @@ class SmsruService
     protected $client;
     protected $apiKey;
     protected $url = 'https://sms.ru/';
-    protected $type = 'sms'
+    protected $type = 'sms';
 
     public function __construct()
     {
         $this->client = new Client();
-        $this->apiKey = config('smsru.api_key');
-        $this->type = config('smsru.type');
+        $this->apiKey = config('smsru.api_key.value');
+        $this->type = config('smsru.type.value');
 
         $this->checkAuth();
     }

@@ -1,7 +1,7 @@
 {
     "name": "SMSRU",
     "alias": "smsru",
-    "description": "Сервис для отправки SMS сообщений через API",
+    "description": "Сервис для отправки SMS сообщений (sms.ru)",
     "keywords": ["smsru"],
     "priority": 0,
     "providers": [

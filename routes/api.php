@@ -15,6 +15,7 @@ use Modules\SMSRU\App\Http\Controllers\SMSRUController;
     |
 */
 
-Route::middleware(['throttle:2,1'])->prefix('v1')->name('api.')->group(function () {
-    Route::resource('smsru', SMSRUController::class)->names('smsru');
+Route::middleware(['throttle:2,1'])->prefix('v1/sms')->name('api.')->group(function () {
+//    Route::resource('smsru', SMSRUController::class)->names('smsru');
+    Route::post('send', [SMSRUController::class, 'index']);
 });
