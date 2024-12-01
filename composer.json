@@ -1,6 +1,9 @@
 {
     "name": "elkojer-team/smsru-module",
     "description": "",
+    "version": "0.0.1",
+    "minimum-stability": "dev",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "Amon Amonov",
