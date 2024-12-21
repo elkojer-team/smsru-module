@@ -1,8 +1,7 @@
 {
     "name": "elkojer-team/smsru-module",
     "description": "",
-    "version": "0.0.1",
-    "minimum-stability": "dev",
+    "version": "1.0.1",
     "type": "laravel-module",
     "authors": [
         {
