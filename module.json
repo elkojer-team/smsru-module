@@ -3,6 +3,7 @@
     "alias": "smsru",
     "description": "Сервис для отправки SMS сообщений (sms.ru)",
     "keywords": ["smsru"],
+    "type": "sms",
     "priority": 0,
     "providers": [
         "Modules\\SMSRU\\App\\Providers\\SMSRUServiceProvider"
