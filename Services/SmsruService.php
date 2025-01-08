@@ -71,14 +71,10 @@ class SmsruService
 
             case 'call':
                 $url = $this->url . 'code/call';
-                if ($ip === null) {
-                    return [
-                        'status' => 'error',
-                        'error' => 'IP address is required for calls.',
-                    ];
-                }
                 $params['phone'] = $to;
-                $params['ip'] = $ip;
+                if($ip) {
+                    $params['ip'] = $ip;
+                }
                 break;
 
             default:
